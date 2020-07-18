@@ -10,7 +10,7 @@ setuptools.setup(
     description="Super simple sound player",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/magicsound",
+    url="https://github.com/jhanish/magicsound",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

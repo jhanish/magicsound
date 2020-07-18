@@ -6,8 +6,6 @@ Installation
 ------------
 Install via pip:
 
-.. code-block:: bash
-
     $ pip install magicsound
 
 Done.
@@ -22,8 +20,6 @@ https://github.com/jhanish/magicsound
 Quick Start
 -----------
 Once you've installed, you can really quickly verify that it works with just this:
-
-.. code-block:: python
 
     >>> from magicsound import magicsound
     >>> magicsound('/path/to/a/sound/file/you/want/to/play.wav') 
@@ -55,15 +51,16 @@ on modern systems, and add others as possible.
 If you need older systems to work, please check out
 the playsound project that this project was forked from.
 
+https://github.com/TaylorSMarks/playsound
+
 Copyright
 ---------
 This software is Copyright (c) 2020 Joe Hanish <joe.hanish@gmail.com>.
 
-This is a derivitive work from Taylor Marks playsound library.  If you are using
-Python older than 3.6, I recommend you use his library.  Magicsound was made just
-to fix some problems on newer systems, eradicate the install requirement for OSX,
-and detect and work with Raspberry Pi directly.  This project is MIT licensed as 
-is his. 
+This is a derivitive work from Taylor Marks playsound library that you can find
+here: https://github.com/TaylorSMarks/playsound. 
+
+If you are using Python older than 3.6, I recommend you use his library.  Magicsound was made just to fix some problems on newer systems, eradicate the install requirement for OSX, and detect and work with Raspberry Pi directly.  This project is MIT licensed as is his. 
 
 Taylor's original source copyright:
 This software is Copyright (c) 2016 Taylor Marks <taylor@marksfam.com>.
