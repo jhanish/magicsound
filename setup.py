@@ -1,10 +1,11 @@
+import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="magicsound", # Replace with your own username
-    version="0.0.1",
+    version="0.0.5",
     author="Joe Hanish",
     author_email="joe.hanish@gmail.com",
     description="Super simple sound player",
@@ -18,5 +19,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    keywords         = 'sound magicsound playsound music wave wav mp3 media song play audio',
+    py_modules       = ['magicsound'],
 )
-s
